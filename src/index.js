@@ -1,4 +1,4 @@
 import React from "react";
-import { render } from "react-dom";
+import ReactDOM from "react-dom";
 
-render(<div>webpack</div>, document.getElementById("root"));
+ReactDOM.render(<div>webpack</div>, document.getElementById("root"));
