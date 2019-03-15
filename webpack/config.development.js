@@ -13,6 +13,6 @@ export default () => ({
   },
   plugins: [
     new webpack.ProgressPlugin(),
-    new HtmlWebpackPlugin({ title: 'webpack', template: './src/index.ejs' }),
+    new HtmlWebpackPlugin({ title: 'mobx_demo', template: './src/index.ejs' }),
   ],
 });
